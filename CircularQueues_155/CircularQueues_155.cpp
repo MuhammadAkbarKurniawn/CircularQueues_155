@@ -104,6 +104,8 @@ int main() {
 	char ch;
 
 	while (true) {
-		try
+		try {
+			cout << "Menu" << endl;
+		}
 	}
 }
