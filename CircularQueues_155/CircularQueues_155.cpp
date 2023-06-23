@@ -66,7 +66,7 @@ public:
 
 		//cek apakah antrian kosong
 		if (FRONT == -1) {
-			cout << "Queue is empty\n";
+			cout << "\nQueue is empty\n";
 			return;
 		}
 
@@ -105,7 +105,7 @@ int main() {
 
 	while (true) {
 		try {
-			cout << "Menu" << endl;
+			cout << "\nMenu" << endl;
 			cout << "1. Implement insert operation" << endl;
 			cout << "2. Implement Delete operation" << endl;
 			cout << "3. Display Values" << endl;
