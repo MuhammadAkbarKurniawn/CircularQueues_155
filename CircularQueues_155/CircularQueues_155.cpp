@@ -6,7 +6,7 @@ class queues {
 	int queue_array[5];
 
 public:
-	Queues() {
+	queues() {
 		FRONT = -1;
 		REAR = -1;
 	}
@@ -98,3 +98,12 @@ public:
 		}
 	}
 };
+
+int main() {
+	queues q;
+	char ch;
+
+	while (true) {
+		try
+	}
+}
